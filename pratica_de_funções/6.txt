@@ -1,0 +1,20 @@
+void main() {
+  
+ idade(12);
+  
+}
+
+void idade(num n1){
+  if(n1 <= 7){
+  print('infantil a');
+  }else if(n1 <= 10){
+  print('infantil b');   
+  }else if(n1 <= 13){
+    print('juvenil a');
+  }else if(n1 <= 17){
+    print('juvenil b');
+  }else if(n1 >= 18){
+    print('adulto');
+  }
+  
+}

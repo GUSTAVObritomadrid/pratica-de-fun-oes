@@ -1,0 +1,9 @@
+void main(){
+ media(10, 8, 6);
+}
+
+void media(double v1, double v2, double v3){
+  double res = v1 + v2 + v3 / 3;
+  print(res);
+  
+}

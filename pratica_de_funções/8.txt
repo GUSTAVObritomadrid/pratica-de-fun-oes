@@ -1,0 +1,20 @@
+void main(){
+  calculos(23, 2);
+  print(calculos);
+}
+
+ void calculos(double v1, double v2){
+   double soma = v1 - v2;
+   print(soma);
+   double rsc1 = v2 * 2;
+   double sub = v1 - rsc1;
+   print(sub);
+   double quadrado2 = v1 * 2;
+   print(quadrado2);
+   double triplo = soma * 3;
+   print(triplo);
+   double metade = triplo / 2;
+   print(metade);
+   print(v1);
+    
+}

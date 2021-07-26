@@ -1,0 +1,13 @@
+import 'dart:math';
+
+
+
+void main() {
+  List<int> lista = [35, 80];
+  
+  print ('O menor numero da lista é ${lista.reduce(min)}');
+  
+
+}
+  
+  

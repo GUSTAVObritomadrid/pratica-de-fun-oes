@@ -1,0 +1,16 @@
+void main() {
+ 
+  double resultado = calculo (30, 10);
+  print(resultado);
+  
+}
+
+
+double calculo(double a, double b ){
+  double res = a + b;
+  
+  return res;
+}
+
+
+
